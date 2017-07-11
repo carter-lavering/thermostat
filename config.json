@@ -1,0 +1,11 @@
+{ // This whole file is filler because I don't know what any of the actual
+  // numbers are without visiting the facility and/or talking to Mr. Horbaly.
+  // The structure is what's important here.
+    "address": "192.168.1.23",
+    "server": "192.168.1.437",
+    "units": {
+        "1": {"port": 17, "delay": 120}, // delay is in seconds
+        "2": {"port": 18, "delay": 180},
+        "3": {"port": 19, "delay": 120}
+    }
+}

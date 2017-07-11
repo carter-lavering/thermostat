@@ -1,5 +1,11 @@
+from urlparse import parse_qs, urlparse
+
 QUEUE = list()
 NEXT_ACTIVATE = 0
+
+
+# query_components = parse_qs(urlparse(self.path).query)
+# imsi = query_components["imsi"]
 
 
 def connect():
